@@ -12,10 +12,8 @@ public class Reservation {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id_reservation;
     @Column(name = "id_voyage")
-    @JoinColumn(name = "id_voyage")
     private Long id_voyage;
     @Column(name = "id_user")
-    @JoinColumn(name = "id_user")
     private Long id_user;
     @Column(name = "date_r")
     private Date date_reservation ;
