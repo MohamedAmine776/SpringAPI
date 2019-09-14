@@ -4,7 +4,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import javax.persistence.*;
 import java.util.Date;
 
-
+@Entity
 @Table(name = "voyage")
 @EntityListeners(AuditingEntityListener.class)
 public class Voyage {
